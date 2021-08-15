@@ -75,7 +75,7 @@ function genLink() {
     if (isChecked) {
         link = proxies_link;
     }
-    goon = confirm(link);
+    goon = confirm("Are you sure you wanna submit?(Please check the table again) \n 你确定要提交吗？（请在此检查信息是否正确）");
     if (goon) {
         document.getElementById("result_proxies").src = link;
     }
